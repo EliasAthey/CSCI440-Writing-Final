@@ -1,7 +1,7 @@
 # Destructive SQL Commands
 Welcome to the darkside of SQL! This tutorial will teach you how to correctly use the **DELETE**, **DROP**, and **UPDATE** commands - as well as how you can use them incorrectly to the demise of your data. If you're not careful, these three commands can destroy your data's integrity. In this tutorial, we will discuss their syntax, symantics, correct usage, and destructive usage.
 
-![https://coub.com/view/s1gqw](https://i.imgur.com/GpuuzmU.jpg)
+![https://coub.com/view/s1gqw](./images/StarDestroyer.jpg)
 
 ## INTRO
 Before starting this tutorial please have some familiarity with SQL and how to use it in a Read-Eval-Print-Loop (REPL). In this tutorial, we will be using sqlite3 in a terminal shell environment to work with our commands. In order for you to follow along, you will need to run [this script](./scripts/BankAccounts.sql) before our example problems unless otherwise stated. This script will create a very simple database modeling Bank Accounts. It has one table called **AccountOwners**, containing a Name and AccountNumber attribute in each entry, and a second table called **Accounts** contains an AccountNumber and Balance in each entry.
